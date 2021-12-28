@@ -1,0 +1,44 @@
+/* style */
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', monospace;
+  // font-family: 'Nanum Myeongjo', serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 1.5cm 1.5cm 2cm 1.5cm;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .container {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+
+/* header */
+/* main */
+
+/* footer */

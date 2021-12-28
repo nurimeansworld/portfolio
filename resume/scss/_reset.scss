@@ -125,19 +125,3 @@ img {
   display: block;
   width: 100%;
 }
-/* custom */
-.sr-only {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
